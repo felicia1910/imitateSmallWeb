@@ -1,0 +1,635 @@
+.top_logos{
+    height: 49.025px;
+    width: 292.45px;
+    /* border: solid 1px; */
+    float: left;
+    padding: 5px;
+    margin-top: 8px;
+}
+.top_pic1{
+    position: absolute;
+}
+.top_pic2{
+    float: right;
+}
+/*---------order problem(右邊的順序需要倒著放)---------*/
+.top_list{
+    display: block; 
+    list-style-type: none;
+    float: right;
+    /* border: solid 1px white; */
+    margin-top: 8px;
+    padding: 5px;
+}
+/*----在li中用right才能橫放-----*/
+.top_list li{
+    float: left;
+    margin: 10px; 
+    color: rgb(204, 75, 75);           
+}
+.top_list li a,.top_list li a:active{
+    color: rgb(197, 197, 197);
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+}
+.top_list li a:hover{
+    color: white;
+}
+.top_sign_in_img{
+    width: 30px;
+    position: absolute;
+    top: 10px;
+    left: 13px;
+}
+.top_range .top_sign_in a{
+    position: relative;
+    color: white;
+    text-decoration: none;
+    background-color: #007BFF;
+    display: inline;
+    float: right;
+    padding: 12px 18px 12px 40px;
+    margin: 0 10px 0 10px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 11px;
+    border-radius: 5px;
+}
+.top_sign_in a:hover{
+    background-color: rgb(2, 99, 202);
+}
+.top_fb a{
+    height: 23px;
+    width: 23px;
+    display: block;
+    float: right;
+    margin: 0;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 5px; 
+    text-decoration: none; 
+    font-size: 25px;
+    font-weight: 900; 
+    color: #01277a;
+}
+.top_fb a:hover{
+    background-color: #eee;
+}
+/*-----------area_1------------*/
+.area_1_pic1{
+    max-width: 970px;
+    margin: auto;
+}
+.area_1_pic2{
+    max-width: 800px;
+    margin: auto;
+}
+.area_1_text,.area_1_pic3,.area_1_pic4{
+    float: left;
+    text-align: left; 
+    font-size: 22.4px;
+    line-height: 33.6px;
+    font-weight: 900;   
+    color: #222;
+}
+/*-----------area_2------------*/ 
+.area_2 h5{
+    font-size: 27.2px;
+    font-weight: bold;
+}
+.area_2 p{
+    font-size: 20.8px;
+    font-weight: bold;  
+}
+.area_2_icon1{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.area_2_icon2{
+    margin-left: 40px;
+}
+/*-----------area_3------------*/     
+.area_3_circle,.area_3_circle2{
+    border-radius: 100%;
+    width: 100px;height: 100px;
+    background-color: #00437E;
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.area_3_circle2{
+    background-color: #FF840A;
+}
+.area_3_circle p,.area_3_circle2 p{
+    font-size: 32px;    
+}
+.area_3_line{
+    border-top: solid 1px rgb(200, 196, 212);
+    width: calc(100% - 100px);
+    margin-top: 50px;
+    float: right;          
+}
+.area_3_box1{
+    font-size: 30px;
+    color: #00437E;
+    line-height: 40.5px;
+    margin-top: -35px;
+}
+.area_3_box2{
+    font-size: 23px;
+    color: rgb(23, 115, 196);
+    border: dotted 2px #999;
+    line-height: 25.3px;
+    margin-top: 12px;
+    padding: 10px;
+}
+.area_3_box3{
+    font-size: 16px;
+    color: #888;
+    line-height: 17.6px;
+    padding: 10px;
+}
+.area_3_box4{
+    font-size: 16px;
+    color: black;
+    border: solid 1px black;
+    border-right: none;
+    border-left: none;
+    line-height: 24px;
+}
+.area_3_box1,.area_3_box2,.area_3_box3{
+    font-weight: bold;
+    text-align: center;
+}
+.area_3_box5 dd{
+    font-size: 23px;
+    color: #FF840A;
+    line-height: 31.05px;
+    font-weight: bold;
+    padding: 10px;
+}
+.area_3_box5 dt{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+    padding-left: 10px;
+    margin-top: -5px;
+}
+.area_3_box5 li{
+    font-size: 17px;
+    color: #666;
+    line-height: 31px;
+    margin-left: 18px;
+    padding: 2px;
+    font-weight: normal;
+}
+ /*-----------area_4------------*/ 
+ .area_4_box1{
+    font-size: 24px;
+    color: #004EA3;
+    font-weight: 900;
+    line-height: 26px;
+    margin-left: 10px;
+}
+.area_4_box2{
+    font-size: 16px;
+    color: #004EA3;
+    font-weight: 900;
+    line-height: 20px;
+    margin-top: 12px;
+    padding: 10px;
+    padding-top: 0px
+}
+.area_4_box3{
+    font-size: 16px;
+    color: #292b2c;
+    line-height: 24px;
+    padding: 10px;
+}
+.area_4_pic2{
+    margin-left: 45px;
+}
+/*-----------area_5------------*/ 
+.area_5_box1{
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.area_5_box2{
+    text-align: center;
+}
+/*--------------table-----------*/
+.area_5_box2 table{
+    border-collapse: collapse;
+    border: solid 1px white;
+    width: 100%;  
+}
+.area_5_box2 table td{
+    background-color: #eee;
+    padding: 20px;
+    font-weight: 900;
+    border: solid 1px rgb(185, 185, 185);
+}
+.area_5_box2 table tr td:first-child{
+    font-size: 16px;
+    color: #01277A;
+    font-weight: 400;
+    padding: 8px;
+}
+.area_5_box2 table tr td:nth-child(2){
+    font-size: 21px;
+    color: #01277A;
+}
+.area_5_box2 table tr td:nth-child(3){
+    font-size: 21px;
+    background-color: rgb(243, 73, 34);
+    color: #fff;
+}
+.area_5_box2 table tr td:nth-child(4){
+    font-size: 21px;
+    color: rgb(243, 73, 34);
+}
+.area_5_box2 table th {
+    background-color: #fff;
+    padding: 20px;
+    font-weight: 700;
+    border: solid 1px rgb(185, 185, 185);
+}
+.area_5_box2 table th:nth-child(2) {
+    color: #333;
+}
+.area_5_box2 table th:nth-child(3),.area_5_box2 table th:nth-child(4) {
+    color: #E73107;
+}
+/*--------------table-----------*/
+.area_5_box3{
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    border: solid 1px rgb(185, 185, 185);
+    padding: 10px 5px;
+    text-align: center;
+}
+.area_5_box4{
+    font-size: 14.4px;
+    line-height: 21.6px;
+    color: #fff;
+    margin: 10px 0;
+}
+.area_5_btn{
+    width: 100%;
+    height: 84.4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.area_5_box5 a,.area_5_box6 a{
+    background-color: rgb(243, 101, 35);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 15px 70px;
+    color: #fff;
+    text-decoration: none; 
+    margin: 3px;
+    border-radius: 5px;
+}
+.area_5_box6 a{
+    background-color: #004EA3;
+    padding: 15px 60px;
+}
+.area_5_box5 a:hover{
+    background-color: #D13126;
+    text-decoration: #fff;
+}
+.area_5_box6 a:hover{
+    background-color: rgb(3, 69, 139);
+    text-decoration: #fff;
+}
+/*----------------1160---------------------*/
+@media screen and (max-width: 1160px){
+    .area_1_range{
+        width: 85%; 
+    }
+    .area_1_pic1{
+        margin-top: 50px;
+    }
+    .area_1_pic1 img, .area_1_pic2 img{
+        max-width: 886px;
+        width: 100%;
+    }
+    .area_3_box2{
+        font-size: 18px;
+        color: rgb(23, 115, 196);
+        border: dotted 2px #999;
+        line-height: 25.3px;
+        margin-top: 12px;
+        padding: 10px;
+    }
+    .area_3_box3{
+        font-size: 14px;
+        color: #888;
+        line-height: 17.6px;
+        padding: 10px;
+        letter-spacing: 0px;
+    }
+    /*-----------------------------*/
+    .area_5_box5 a,.area_5_box6 a{
+        background-color: rgb(243, 101, 35);
+        text-align: center;
+        font-size: 20px;
+        font-weight: 900;
+        padding: 15px 50px;
+        color: #fff;
+        text-decoration: none; 
+        margin: 3px;
+        border-radius: 5px;
+    }
+    .area_5_box6 a{
+        background-color: #004EA3;
+        padding: 15px 40px;
+    }
+}
+
+/**---------------946-------------------**/
+@media screen and (max-width: 946px){
+    .top_range{
+        /* border: solid 1px; */
+        width: 670px;
+        display: flex;
+        justify-content: space-between;
+    }
+    /*---------order problem(右邊的順序需要倒著放)---------*/
+    .top_r{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    /*----在li中用right才能橫放-----*/
+    .top_list li{
+        width: 35px;
+        /* border: solid 1px white; */
+        margin: -3px 10px 5px 5px; 
+        color: rgb(204, 75, 75);       
+    }
+    .area_2 .area_2_range h5{
+        font-size: 20.8px;
+        font-weight: bold;
+    }
+    .area_5_box5 a,.area_5_box6 a{
+        padding: 15px 30px;
+    }
+    .area_5_box6 a{
+        padding: 15px 25px;
+    }
+    .area_5_top,.area_5_range{
+        width: 95%;
+        max-width: 697px;
+    }
+}
+
+/*---------------------748---------------------*/
+@media screen and (max-width: 748px){
+    .big_box{
+        /* border: solid 5px; */
+        width: 100%;
+        overflow-x: hidden;
+    }
+    /*--------馬DER這塊搞超久--------*/
+    .top_range{
+        /* border: solid 1px; */
+        width: 90%;
+        max-width: 542px;
+        display: block;
+    }
+    /*---------order problem(右邊的順序需要倒著放)---------*/
+    .top_r_btn{
+        height: 40px;
+        width: 56px;
+        border: solid 1px rgba(80, 102, 172, 0.568);
+        border-radius: 2px;
+        padding: 4px 12px;
+        box-sizing: border-box;
+        float: right;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+    .top_r_btn_line{
+        border-top: solid 2px rgba(204, 204, 204, .5);
+        width: 26px;
+        margin: auto;
+        margin-top: 6px;
+    }
+    /************CHECK*************/
+    /************CHECK*************/
+    /************CHECK*************/
+    .top_r{
+        width: 0;
+        height: 0;
+        overflow: hidden;
+    }   
+    #check_box:checked  ~  .top{
+        height: 290px;
+    }
+    #check_box:checked  ~  .top .top_r{
+        top: 55px;
+        /* border: 1px solid; */
+        width: 100%;
+        height: 230px;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    #check_box:checked  ~  .top .top_list{
+        margin-top: 0px;
+    }
+    #check_box:checked  ~  .top .top_list li{
+        width: 100%;
+        display: block;
+        padding: 8px 0;
+        margin: 0;
+        /* border: solid 1px white; */
+    }
+    #check_box:checked  ~  .top .top_sign_in a{
+        float: initial;
+        top: 10px
+    }
+    #check_box:checked  ~ .top .top_fb a{
+        float: initial;
+        margin: 40px auto;
+    }
+    /************input要框對內容才能變動*************/  
+    .area_1{
+        height: 696px;
+        background: #ffc800 url(imges/area_bg.png) 50% 115% no-repeat;
+        background-size: 180%;
+    }
+    .area_1_pic1 img, .area_1_pic2 img{
+        max-width: 498px;
+    }
+    .area_1_pic3 img, .area_1_pic4 img{
+        max-width: 498px;
+        margin: auto;
+    }
+    .area_2{
+        overflow: hidden;
+    }
+    .area_3_range_bottom{
+        display: block;
+    }
+    .area_3 .area_3_l{
+        width: 95%;
+        margin: auto;   
+    }
+    .area_3 .area_3_r{
+        width: 95%;
+        margin-top: 10px;
+        margin: auto; 
+    }
+    .area_4_range{
+        width: 85%;
+        display: flex;
+        flex-wrap: wrap;           
+    }
+    .area_4_pic1, .area_4_pic2{
+        width: 176px;
+    }
+    .area_4_pic2{
+        margin-left: 0;
+    }
+    .area_4 .area_4_l, .area_4 .area_4_r{
+        width: 306px;
+        /* border: solid 1px; */
+    }
+    .area_5_range{
+        width: 90%;
+        max-width:  520px;
+        margin: 20px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .area_5_l,.area_5_r{
+        max-width: 520px;
+        width: 100%;
+        margin: auto;
+    }  
+    .area_5_box5 a,.area_5_box6 a{      
+        padding: 15px 70px;
+    }
+    .area_5_box6 a{
+        padding: 15px 60px;
+    }
+}
+/*---------------------557---------------------*/
+@media screen and (max-width: 557px){
+    .area_1{
+        background: #ffc800 url(imges/area_bg.png) 50% 100% no-repeat;
+        background-size: 180%;
+    }
+    .area_1_text{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .area_1_pic1{
+        margin-top: 80px; 
+    }
+    .area_1_pic1 img, .area_1_pic2 img{
+        max-width: 506px;
+        width: 100%;
+    }
+    .area_3_circle, .area_3_circle2{
+        width: 100%;
+        height: 62px;
+        border-radius: 10px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        font-size: 16px;
+        padding: 12px;
+    }
+    .area_3_circle p , .area_3_circle2 p{
+        font-size: 20px;
+    }
+    .area_3_box1{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        /* border: solid 1px; */
+    }
+    .area_3_line{
+        opacity: 0;
+        margin: -50px;
+    }
+    .area_5_btn{
+        position: fixed;
+        z-index: 999;
+        width: 100%;
+        height: 59px;
+        background-color: #000;
+        bottom: 0;
+        left: 0;
+    }
+    .area_5_box5 a,.area_5_box6 a{      
+        padding: 10px 14vw;
+        border-radius: 0;
+    }
+    .area_5_box6 a{
+        padding: 10px 11vw;
+        border-radius: 0;
+    }
+    .area_5_box2 table td{
+        padding: 10px;
+    }
+    .area_6{
+        margin-bottom: 59px;
+    }
+}
+/*---------------------417---------------------*/
+@media screen and (max-width: 417px){
+    .top{
+        height: 125px;
+    }
+    #check_box:checked  ~  .top{
+        height: 350px;
+    }
+    .area_2{
+        height: auto;
+        padding: 15px;
+    }
+    .area_2 h5{
+        font-size: 20px;
+    }
+    .area_2 p{
+        font-size: 18px;
+    }
+    .area_2_range{
+        width: 0;
+        height: 0;
+        overflow: hidden;
+        margin: auto;
+    }
+    .area_2_range_2{
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .area_2_icon1 , .area_2_icon2{
+       margin: 5px 0 0 0; 
+    }
+    .area_2box{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .area_5_box5 a,.area_5_box6 a{      
+        padding: 10px 7vw;
+    }
+    .area_5_box6 a{
+        padding: 10px 4vw;
+}
